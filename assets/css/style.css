@@ -1795,3 +1795,14 @@ p {
 
 ol.c {list-style-type: upper-roman;}
 ol.d {list-style-type: lower-alpha;}
+
+.navbar-btn .main-btn {
+  height: 45px;
+  line-height: 45px;
+  background: -webkit-linear-gradient(left, #3698EE 0%, #6669c5 100%);
+  background: -o-linear-gradient(left, #3698EE 0%, #6669c5 100%);
+  background: linear-gradient(to right, #3698EE 0%, #6669c5 100%);
+  background-size: 200%; }
+  .navbar-btn .main-btn:hover {
+    color: #fff;
+    background-position: right center; }
